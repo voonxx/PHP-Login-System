@@ -28,20 +28,11 @@ require_once "inc/config.php";
     <h1>Admin Login</h1>
 
     <!-- <form action="/action_page.php"> -->
-    <form class ="form-horizontal js-register">
+    <form class ="form-horizontal js-login">
       <div class="form-group">
         <div class="row">
           <div class="col-sm-4">
-            <label for="area">Area: </label>
-            <input type="text" class="form-control" name="area" require ='required' placeholder="Enter Company Area..">
-          </div>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <div class="row">
-          <div class="col-sm-4">
-            <label for="Username">User Name: </label>
+            <label for="Username">Username: </label>
             <input type="text" class="form-control" name="username" require ='required' placeholder="Enter Username..">
           </div>
         </div>
@@ -63,7 +54,7 @@ require_once "inc/config.php";
         <label><input type="checkbox"> Remember me</label>
       </div>
 
-      <button type="submit" class="btn btn-default" name="submit" value ="submit">Register</button>
+      <button type="submit" class="btn btn-default" name="submit" value ="submit">Login</button>
 
     </form>
   </div>
